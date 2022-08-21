@@ -113,7 +113,6 @@ public class ArrayQueue<E> implements Queue<E> {
 
 	}
 
-	// 수정필요
 	@Override
 	public E elementAt(int order) {
 		for (int i = this.frontIdx; i < this.rearIdx + 1; i++) {
